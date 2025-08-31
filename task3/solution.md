@@ -1,0 +1,3 @@
+##Deep Learning with Neural Networks<br>
+
+As the name suggests the "Neural" part of a Neural Network is actually divised from our own body's master which is the Brain. Our brain consists of tiny cells called neurons which has 2 ends, One to take in input from other neurons and other to output information to the next neuron. Similarly these neurons are called "node" or "perceptron" to better differentiate then from actual neurons.
