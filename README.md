@@ -20,5 +20,5 @@ The tasks cover Python programming, text processing, and reflective writing. The
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/<your-username>/ACM-Research-Tasks.git
+   git clone https://github.com/N1KH1LT0X1N/ACM-Research-Tasks.git
    cd ACM-Research-Tasks
