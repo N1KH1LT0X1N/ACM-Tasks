@@ -11,8 +11,8 @@ The tasks cover Python programming, text processing, and reflective writing. The
 
 | Task Number | Status     | Description |
 |-------------|------------|-------------|
-| Task 1 (Python) | ⏳ Pending  | Mischievous Text Transformer |
-| Task 2 (Python) | ⏳ Pending  | Extract Structure from Unstructured Text |
+| Task 1 (Python) | 🚀 Done  | Mischievous Text Transformer |
+| Task 2 (Python) | 🚀 Done  | Extract Structure from Unstructured Text |
 | Task 3 (Writing) | ⏳ Pending  | Blog Review – Assigned Reading |
 | Task 4 (Writing) | ⏳ Pending  | Blog Review – Open Ended |
 
