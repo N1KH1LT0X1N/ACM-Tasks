@@ -6,8 +6,8 @@ The tasks cover Python programming, text processing, and reflective writing. The
 ## 📋 Progress Overview
 
 - **Total Tasks:** 4  
-- **Completed:** 0  
-- **Remaining:** 4  
+- **Completed:** 2
+- **Remaining:** 2  
 
 | Task Number | Status     | Description |
 |-------------|------------|-------------|
