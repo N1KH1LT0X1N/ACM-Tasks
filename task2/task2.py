@@ -33,14 +33,13 @@ def summarize_text(text, length, style):
     """Summarizes extracted text with structured formatting."""
     prompt = (
         f"""
-        Read the following document and summarize it in {style.lower()} format.
-        Keep the summary {length.lower()}.
+        Read the following document and extract unstructured information and convert it into a structured summary in {style.lower()} format.
+        Keep the information {length.lower()}.
         Follow this structured reasoning:
-        1. Identify key sections & main topics.
-        2. Extract important information like metadata and others.
-        3. Extract essential points from each section.
-        4. Remove redundant information.
-        5. Ensure accuracy without hallucination.
+        1. Extract useful information from the document.
+        2. Make unstructured information structured.
+        3. Remove redundant information.
+        4. Ensure accuracy without hallucination.
         Document:
         {text[:10000]}  # Limit input to 10,000 characters for efficiency
 
