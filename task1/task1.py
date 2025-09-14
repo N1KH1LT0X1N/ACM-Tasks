@@ -24,6 +24,8 @@ def transform_text(input_text: str) -> str:
 
     return output_text
 
+transform_text(5)
+
 if __name__ == "__main__":
     sample_text = "Call me at 98123-45678 on 2025-08-23. I love Python more than Java."
     print(transform_text(sample_text))  
