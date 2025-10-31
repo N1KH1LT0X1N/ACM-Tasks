@@ -1,13 +1,35 @@
-##Deep Learning with Neural Networks<br>
+## Deep Learning with Neural Networks
 
-As the name suggests the "Neural" part of a Neural Network is actually divised from our own body's master which is the Brain. Our brain consists of tiny cells called neurons which has 2 ends, One to take in input from other neurons and other to output information to the next neuron. Similarly these neurons are called "node" or "perceptron" to better differentiate then from actual neurons.
+### Blog Review: Understanding Basic Neural Networks
 
-A Neural Netork has multiple "layers" for example, the first layer is called the input layer and the last layer is called the output layer. The middle layers are called "hidden" layers, they can add more complexity to our ML model to predict stuff better. Each node gets fed "weights" and "biases" which change will the model is getting trained so that the NN fits our data. They are then fed into a ACTIVATION FUNCTION which adds non-linearity into our model.
+The blog I reviewed explores the fundamental concepts of neural networks, drawing a beautiful parallel between artificial neural networks and the human brain. This analogy is not just poetic but functionally accurate—just as our brain's neurons process information through interconnected pathways, artificial neural networks use nodes (or "perceptrons") to process data.
 
-Then there are there are threshold functions which decides the classification of our data.They can be : ReLU(Rectified Linear Unit), Hyperbolic, Sigmoid or Linear.
+**Key Concepts I Learned:**
 
-All in all NNs can be made infinitely more complex but only find use cases for complex predictions like image classification and NLP. Using the right model for the right application is very crucial step in a ML Pipeline.
+The architecture of a neural network consists of distinct layers:
+- **Input Layer**: Where raw data enters the system
+- **Hidden Layers**: The middle layers that add complexity and enable the model to learn intricate patterns
+- **Output Layer**: Where final predictions or classifications are made
 
+What fascinated me most was the role of **weights and biases**. These parameters aren't fixed—they continuously adjust during training, allowing the network to "fit" the data better. This adaptive learning mechanism is what makes neural networks so powerful.
+
+**Activation Functions** are another crucial component that I found intriguing. They introduce non-linearity into the model, which is essential for learning complex patterns. Common activation functions include:
+- **ReLU (Rectified Linear Unit)**: Popular for its simplicity and effectiveness
+- **Sigmoid**: Useful for binary classification
+- **Hyperbolic Tangent (tanh)**: Offers centered outputs
+- **Linear**: For regression tasks
+
+The blog emphasizes an important practical consideration: **complexity isn't always better**. While neural networks can be made infinitely complex with more layers and nodes, they're best suited for specific applications like image classification and natural language processing (NLP). Simpler problems often benefit from simpler models.
+
+**My Reflection:**
+
+This blog resonated with me because it demystifies deep learning without oversimplifying it. The emphasis on choosing the right model for the right application is a valuable lesson for any ML practitioner. As someone interested in AI research, understanding these foundational concepts is crucial before diving into more advanced architectures like CNNs, RNNs, or Transformers.
+
+The blog effectively balances theory with practical insights, making it an excellent resource for beginners while still offering valuable reminders for experienced practitioners about the importance of model selection in the ML pipeline.
+
+---
+
+**Blog Source**: [Deep Learning Part 1: Understanding Basic Neural Networks](https://medium.com/@sumbatilinda/deep-learning-part-1-understanding-basic-neural-networks-c9ccdb17a343) by Linda Sumbati
 
 
 
