@@ -44,8 +44,10 @@ The tasks cover Python programming, text processing, and reflective writing. The
      ```env
      GROQ_API_KEY=your_api_key_here
      ```
+   - **⚠️ SECURITY:** Never commit your `.env` file! It's already in `.gitignore`
+   - See [SECURITY_CHECKLIST.md](SECURITY_CHECKLIST.md) for security best practices
 
-## 📂 Repository Structure
+## 🔒 Security
 
 ```
 ACM-Tasks/
@@ -139,7 +141,9 @@ This project is created for educational purposes as part of the DJSCE ACM Resear
 ## 📚 Additional Resources
 
 - [📖 Installation Guide](INSTALLATION.md) - Detailed setup instructions
-- [📊 Project Stats](STATS.md) - Repository statistics and metrics
+- [� Security Checklist](SECURITY_CHECKLIST.md) - Pre-commit security verification
+- [🔒 Security Audit Report](SECURITY_AUDIT_REPORT.md) - Complete security audit
+- [�📊 Project Stats](STATS.md) - Repository statistics and metrics
 - [📝 Changelog](CHANGELOG.md) - Version history and updates
 - [🔒 Security Policy](SECURITY.md) - Security practices and reporting
 - [🤝 Contributing](CONTRIBUTING.md) - How to contribute

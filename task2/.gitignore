@@ -1,3 +1,10 @@
+# Environment variables - CRITICAL: Never commit these!
 .env
+.env.local
+*.env
+!.env.example
+
+# PDFs - May contain sensitive information
 ACM_Tasks.pdf
 Banking_BMC.pdf
+*.pdf
